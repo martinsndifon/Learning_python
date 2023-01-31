@@ -1,4 +1,4 @@
-name = "martins.ndifon? mgbe:evareh emmanuel. michael?ifere"
+name = "martins.ndifon? mgbe:evareh emmanuel. michael?ifere."
 
 i = 0
 while i < len(name):
@@ -6,10 +6,11 @@ while i < len(name):
 		print(f'{name[i]}', end='')
 		print('\n')
 		i += 1
-		if name[i] == ' ':
-			i += 1
-		else:
-			continue
+		if i < len(name):
+			if name[i] == ' ':
+				i += 1
+			else:
+				continue
 	else:
 		print(f'{name[i]}', end='')
 		i += 1
